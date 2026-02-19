@@ -242,7 +242,7 @@ const Dashboard: React.FC = () => {
         </div>
       </section>
 
-      {/* Campus GPS & Interactive Map Section */}
+      {/* Campus Navigation & Interactive Map Section */}
       <section className="max-w-7xl mx-auto px-4 py-24">
         <div className="bg-emerald-950 rounded-[4rem] p-6 md:p-14 shadow-3xl overflow-hidden relative">
           <div className="absolute top-0 right-0 w-full h-full opacity-5 pointer-events-none">
@@ -254,7 +254,7 @@ const Dashboard: React.FC = () => {
           <div className="grid lg:grid-cols-5 gap-16 items-center relative z-10">
             <div className="lg:col-span-2 text-white">
               <div className="inline-flex items-center px-4 py-1.5 rounded-full bg-emerald-800/50 text-emerald-400 text-xs font-bold mb-8 border border-emerald-700/50 backdrop-blur-sm">
-                <i className="fas fa-map-location-dot mr-2"></i> Real-time Campus GPS
+                <i className="fas fa-map-location-dot mr-2"></i> Campus Navigation
               </div>
               <h2 className="text-4xl md:text-5xl font-bold mb-8 leading-tight">Navigating the <br/><span className="text-emerald-400">Future Campus</span></h2>
               <p className="text-emerald-100/70 mb-12 text-lg leading-relaxed font-medium">
@@ -291,8 +291,8 @@ const Dashboard: React.FC = () => {
               ></iframe>
               <div className="absolute top-8 left-8 flex gap-3">
                  <div className="bg-emerald-700/90 backdrop-blur-md text-white px-6 py-3 rounded-2xl text-sm font-black shadow-2xl flex items-center border border-white/20">
-                    <span className="w-2.5 h-2.5 bg-red-500 rounded-full mr-3 animate-pulse shadow-[0_0_8px_rgba(239,68,68,0.8)]"></span>
-                    ACTIVE RADAR
+                    <span className="w-2.5 h-2.5 bg-emerald-500 rounded-full mr-3 shadow-[0_0_8px_rgba(16,185,129,0.8)]"></span>
+                    CAMPUS MAP
                  </div>
               </div>
               <div className="absolute bottom-8 right-8 bg-white/95 backdrop-blur-md p-6 rounded-[2rem] flex items-center space-x-5 text-emerald-900 font-bold shadow-2xl border border-white/20">

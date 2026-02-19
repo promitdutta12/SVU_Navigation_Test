@@ -1,7 +1,5 @@
 {
   "name": "Rick Nav - SVU Campus Guide",
   "description": "A comprehensive navigation and information portal for Swami Vivekananda University (SVU), Barrackpore, featuring AI-assisted guidance, campus maps, leadership details, and emergency services.",
-  "requestFramePermissions": [
-    "geolocation"
-  ]
+  "requestFramePermissions": []
 }
